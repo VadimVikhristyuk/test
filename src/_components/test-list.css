@@ -1,0 +1,78 @@
+.rootContainer{
+    margin: 5% auto;
+    width: 50%;
+    box-shadow:0 0 6px 0 gray;
+    background-color: darkgray;
+    border-radius: 5px;
+    min-width: 460px;
+}
+
+.listContainer {
+    margin: auto;
+    overflow-y: scroll;
+    height: 300px;
+    padding-inline-start:unset;
+    cursor: pointer;
+}
+.listTitle{
+    width: auto;
+    padding: 0 17px 0 0;
+}
+.topForm{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.list {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.listContainer :hover{
+    background-color: gainsboro;
+}
+
+
+.listItem{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 3px;
+    height: 24px;
+    overflow: hidden;
+}
+.title{
+    background-color: white;
+}
+
+.tooltip {
+    -webkit-box-shadow: 0 0 5px 0px black;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    border: solid black 1px;
+    padding: 5px;
+    font: bold 10pt sans-serif;
+}
+.loadingMessage{
+    margin:10% auto;
+    padding: 10px;
+}
+.popUp{
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 3px;
+    display: flex
+}
+.popUpButton{
+    border-radius: 12px;
+    border: none;
+    box-shadow: inset 0 0 3px 0 gray;
+    margin:0 10px 0 5px;
+    width:21px;
+    outline: none;
+}
